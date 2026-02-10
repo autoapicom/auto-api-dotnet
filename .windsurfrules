@@ -1,0 +1,26 @@
+# auto-api-dotnet — C# client for auto-api.com
+
+- .NET 6+, zero dependencies (System.Net.Http, System.Text.Json only)
+- AutoApiClient class implementing IDisposable, 6 async methods
+- CancellationToken as last parameter with default value
+- Returns typed models (OffersResponse, ChangesResponse) or JsonElement
+- PascalCase public members, Async suffix on async methods
+- Nullable reference types enabled
+- XML doc comments in English
+- JsonElement for raw offer data — varies between sources
+- ApiException for API errors, AuthException for 401/403
+
+## Key Files
+
+- src/AutoApi/AutoApiClient.cs — main client (6 async methods)
+- src/AutoApi/Models.cs — response models
+- src/AutoApi/OffersParams.cs — query parameters
+- src/AutoApi/Exceptions.cs — exception classes
+- src/AutoApi/AutoApi.csproj — project file
+
+## Never
+
+- Add NuGet dependencies
+- Use Newtonsoft.Json
+- Skip CancellationToken parameter
+- Write comments or docs in non-English languages
