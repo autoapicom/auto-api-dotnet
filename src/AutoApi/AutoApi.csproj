@@ -9,7 +9,7 @@
     <PackageId>AutoApi.Client</PackageId>
     <Version>1.0.0</Version>
     <Authors>AUTO-API.COM</Authors>
-    <Description>C# client for auto-api.com — car listings API across multiple marketplaces.</Description>
+    <Description>.NET client for auto-api.com — search and track car listings from encar, mobile.de, autoscout24 and more</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/autoapicom/auto-api-dotnet</PackageProjectUrl>
     <RepositoryUrl>https://github.com/autoapicom/auto-api-dotnet</RepositoryUrl>

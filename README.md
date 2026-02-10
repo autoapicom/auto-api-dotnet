@@ -4,9 +4,9 @@
 [![.NET](https://img.shields.io/badge/.NET-6.0%2B-blue)](https://dotnet.microsoft.com)
 [![License](https://img.shields.io/github/license/autoapicom/auto-api-dotnet)](LICENSE)
 
-C# client for [auto-api.com](https://auto-api.com) — car listings API across multiple marketplaces.
+.NET client for the [auto-api.com](https://auto-api.com) car listings API — search offers, track changes and pull listing data from 8 automotive marketplaces worldwide.
 
-One API to access car listings from 8 marketplaces: encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle. Search offers, track price changes, and get listing data in a unified format.
+Sources: encar (Korea), mobile.de, autoscout24 (Europe), che168, dongchedi, guazi (China), dubicars, dubizzle (UAE). Zero NuGet dependencies — built on `HttpClient` and `System.Text.Json`.
 
 ## Installation
 
@@ -68,7 +68,7 @@ var info = await client.GetOfferByUrlAsync(
 
 ### Decode offer data
 
-Offer data varies between sources, so it's stored as `JsonElement`. Deserialize into your own type:
+The `Data` property is a `JsonElement` because different sources return different fields. Deserialize to your own type:
 
 ```csharp
 foreach (var item in offers.Result)
