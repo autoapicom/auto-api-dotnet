@@ -19,6 +19,7 @@ var offers = await client.GetOffersAsync("encar", new OffersParams { Page = 1 })
 
 ```bash
 dotnet build
+dotnet test
 dotnet run --project examples/Example
 ```
 
