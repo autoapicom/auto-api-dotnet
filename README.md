@@ -2,7 +2,7 @@
 
 [![NuGet](https://img.shields.io/nuget/v/AutoApi.Client)](https://nuget.org/packages/AutoApi.Client)
 [![.NET](https://img.shields.io/badge/.NET-6.0%2B-blue)](https://dotnet.microsoft.com)
-[![License](https://img.shields.io/github/license/autoapicom/auto-api-dotnet)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 .NET client for the [auto-api.com](https://auto-api.com) car listings API — search offers, track changes and pull listing data from 8 automotive marketplaces worldwide.
 
