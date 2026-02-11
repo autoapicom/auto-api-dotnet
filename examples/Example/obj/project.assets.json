@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AutoApi.Client/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AutoApi.Client.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutoApi.Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoApi.Client/1.0.0": {
+      "type": "project",
+      "path": "../../src/AutoApi/AutoApi.csproj",
+      "msbuildProject": "../../src/AutoApi/AutoApi.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AutoApi.Client >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/me/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/private/tmp/auto-api-dotnet/examples/Example/Example.csproj",
+      "projectName": "Example",
+      "projectPath": "/private/tmp/auto-api-dotnet/examples/Example/Example.csproj",
+      "packagesPath": "/Users/me/.nuget/packages/",
+      "outputPath": "/private/tmp/auto-api-dotnet/examples/Example/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/me/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "/opt/homebrew/Cellar/dotnet/10.0.102/libexec/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj": {
+              "projectPath": "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/10.0.102/libexec/sdk/10.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

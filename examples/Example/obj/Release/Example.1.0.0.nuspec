@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Example</id>
+    <version>1.0.0</version>
+    <authors>Example</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="62753377a98e18ea72f20fb97c2bb69b3db4c023" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AutoApi.Client" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/private/tmp/auto-api-dotnet/examples/Example/bin/Release/net6.0/Example.runtimeconfig.json" target="lib/net6.0/Example.runtimeconfig.json" />
+    <file src="/private/tmp/auto-api-dotnet/examples/Example/bin/Release/net6.0/Example.dll" target="lib/net6.0/Example.dll" />
+  </files>
+</package>

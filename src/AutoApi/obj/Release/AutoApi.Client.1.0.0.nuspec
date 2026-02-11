@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AutoApi.Client</id>
+    <version>1.0.0</version>
+    <authors>AUTO-API.COM</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/autoapicom/auto-api-dotnet</projectUrl>
+    <description>.NET client for auto-api.com — search and track car listings from encar, mobile.de, autoscout24 and more</description>
+    <tags>auto-api cars api client marketplace encar api mobile.de api autoscout24 api che168 api dongchedi api guazi api dubicars api dubizzle api</tags>
+    <repository type="git" url="https://github.com/autoapicom/auto-api-dotnet" commit="62753377a98e18ea72f20fb97c2bb69b3db4c023" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/private/tmp/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.dll" target="lib/net6.0/AutoApi.dll" />
+    <file src="/private/tmp/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.xml" target="lib/net6.0/AutoApi.xml" />
+    <file src="/private/tmp/auto-api-dotnet/README.md" target="README.md" />
+  </files>
+</package>

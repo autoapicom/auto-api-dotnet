@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cyvwvd8zoNg=",
+  "success": true,
+  "projectFilePath": "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/me/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/me/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+/private/tmp/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.deps.json
+/private/tmp/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.dll
+/private/tmp/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.pdb
+/private/tmp/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.xml
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.GeneratedMSBuildEditorConfig.editorconfig
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.AssemblyInfoInputs.cache
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.AssemblyInfo.cs
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.csproj.CoreCompileInputs.cache
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.sourcelink.json
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.dll
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/refint/AutoApi.dll
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.xml
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.pdb
+/private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/ref/AutoApi.dll

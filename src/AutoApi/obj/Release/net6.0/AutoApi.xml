@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoApi</name>
+    </assembly>
+    <members>
+        <member name="T:AutoApi.AutoApiClient">
+            <summary>
+            Client for the auto-api.com car listings API.
+            </summary>
+        </member>
+        <member name="M:AutoApi.AutoApiClient.#ctor(System.String,System.String,System.String,System.Net.Http.HttpClient)">
+            <summary>
+            Creates a new AutoApiClient with the given API key.
+            </summary>
+            <param name="apiKey">API key from auto-api.com.</param>
+            <param name="baseUrl">Base URL override (default: https://auto-api.com).</param>
+            <param name="apiVersion">API version (default: v2).</param>
+            <param name="httpClient">Optional HttpClient instance. If provided, the client will not be disposed.</param>
+        </member>
+        <member name="M:AutoApi.AutoApiClient.GetFiltersAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Returns available filters for a source (brands, models, body types, etc.)
+            </summary>
+        </member>
+        <member name="M:AutoApi.AutoApiClient.GetOffersAsync(System.String,AutoApi.OffersParams,System.Threading.CancellationToken)">
+            <summary>
+            Returns a paginated list of offers with optional filters.
+            </summary>
+        </member>
+        <member name="M:AutoApi.AutoApiClient.GetOfferAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Returns a single offer by inner_id.
+            </summary>
+        </member>
+        <member name="M:AutoApi.AutoApiClient.GetChangeIdAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Returns a change_id for the given date (format: yyyy-mm-dd).
+            </summary>
+        </member>
+        <member name="M:AutoApi.AutoApiClient.GetChangesAsync(System.String,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Returns a changes feed (added/changed/removed) starting from change_id.
+            </summary>
+        </member>
+        <member name="M:AutoApi.AutoApiClient.GetOfferByUrlAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Returns offer data by its URL on the marketplace.
+            Uses POST /api/v1/offer/info with x-api-key header.
+            </summary>
+        </member>
+        <member name="M:AutoApi.AutoApiClient.Dispose">
+            <summary>
+            Disposes the internal HttpClient if it was created by this instance.
+            </summary>
+        </member>
+        <member name="T:AutoApi.ApiException">
+            <summary>
+            Base exception for all auto-api.com API errors.
+            </summary>
+        </member>
+        <member name="P:AutoApi.ApiException.StatusCode">
+            <summary>
+            HTTP status code returned by the API.
+            </summary>
+        </member>
+        <member name="P:AutoApi.ApiException.ResponseBody">
+            <summary>
+            Raw response body from the API.
+            </summary>
+        </member>
+        <member name="T:AutoApi.AuthException">
+            <summary>
+            Exception for authentication errors (HTTP 401/403).
+            </summary>
+        </member>
+        <member name="T:AutoApi.OffersResponse">
+            <summary>
+            Response from GetOffersAsync and GetOfferAsync.
+            </summary>
+        </member>
+        <member name="T:AutoApi.ChangesResponse">
+            <summary>
+            Response from GetChangesAsync.
+            </summary>
+        </member>
+        <member name="T:AutoApi.Meta">
+            <summary>
+            Pagination metadata for offers.
+            </summary>
+        </member>
+        <member name="T:AutoApi.ChangesMeta">
+            <summary>
+            Pagination metadata for changes feed.
+            </summary>
+        </member>
+        <member name="T:AutoApi.OfferItem">
+            <summary>
+            A single item in the offers result array.
+            Data is a JsonElement because the structure varies between sources.
+            </summary>
+        </member>
+        <member name="T:AutoApi.ChangeItem">
+            <summary>
+            A single item in the changes result array.
+            Data is a JsonElement because the structure varies between sources.
+            </summary>
+        </member>
+        <member name="T:AutoApi.OffersParams">
+            <summary>
+            Query parameters for GetOffersAsync.
+            Only non-null values are sent to the API.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.Page">
+            <summary>
+            Page number (required).
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.Brand">
+            <summary>
+            Filter by brand name.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.Model">
+            <summary>
+            Filter by model name.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.Configuration">
+            <summary>
+            Filter by configuration.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.Complectation">
+            <summary>
+            Filter by complectation.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.Transmission">
+            <summary>
+            Filter by transmission type.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.Color">
+            <summary>
+            Filter by color.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.BodyType">
+            <summary>
+            Filter by body type.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.EngineType">
+            <summary>
+            Filter by engine type.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.YearFrom">
+            <summary>
+            Minimum year filter.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.YearTo">
+            <summary>
+            Maximum year filter.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.MileageFrom">
+            <summary>
+            Minimum mileage filter.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.MileageTo">
+            <summary>
+            Maximum mileage filter.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.PriceFrom">
+            <summary>
+            Minimum price filter.
+            </summary>
+        </member>
+        <member name="P:AutoApi.OffersParams.PriceTo">
+            <summary>
+            Maximum price filter.
+            </summary>
+        </member>
+    </members>
+</doc>
