@@ -9,7 +9,7 @@ dotnet add package AutoApi.Client
 ## Quick Start
 
 using AutoApi;
-using var client = new AutoApiClient("your-api-key");
+using var client = new AutoApiClient("your-api-key", "https://api1.auto-api.com");
 var offers = await client.GetOffersAsync("encar", new OffersParams { Page = 1, Brand = "BMW" });
 
 ## API Methods

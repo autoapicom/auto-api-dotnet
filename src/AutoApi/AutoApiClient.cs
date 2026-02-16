@@ -24,12 +24,12 @@ public class AutoApiClient : IDisposable
     /// Creates a new AutoApiClient with the given API key.
     /// </summary>
     /// <param name="apiKey">API key from auto-api.com.</param>
-    /// <param name="baseUrl">Base URL override (default: https://auto-api.com).</param>
+    /// <param name="baseUrl">Base URL (default: https://api1.auto-api.com).</param>
     /// <param name="apiVersion">API version (default: v2).</param>
     /// <param name="httpClient">Optional HttpClient instance. If provided, the client will not be disposed.</param>
     public AutoApiClient(
         string apiKey,
-        string baseUrl = "https://auto-api.com",
+        string baseUrl = "https://api1.auto-api.com",
         string apiVersion = "v2",
         HttpClient? httpClient = null)
     {

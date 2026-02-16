@@ -12,3 +12,17 @@
 /private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.xml
 /private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.pdb
 /private/tmp/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/ref/AutoApi.dll
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.deps.json
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.dll
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.pdb
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/bin/Release/net6.0/AutoApi.xml
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.AssemblyInfoInputs.cache
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.AssemblyInfo.cs
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.csproj.CoreCompileInputs.cache
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.sourcelink.json
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.dll
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/refint/AutoApi.dll
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.xml
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/AutoApi.pdb
+/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/Release/net6.0/ref/AutoApi.dll

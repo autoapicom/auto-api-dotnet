@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tthd6isQPbo=",
+  "dgSpecHash": "lGqmyyUMl8A=",
   "success": true,
-  "projectFilePath": "/private/tmp/auto-api-dotnet/examples/Example/Example.csproj",
+  "projectFilePath": "/Users/me/projects/auto-api-clients/auto-api-dotnet/examples/Example/Example.csproj",
   "expectedPackageFiles": [
     "/Users/me/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "/Users/me/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",

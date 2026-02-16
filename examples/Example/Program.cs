@@ -7,7 +7,7 @@
 using System.Text.Json;
 using AutoApi;
 
-using var client = new AutoApiClient("your-api-key");
+using var client = new AutoApiClient("your-api-key", "https://api1.auto-api.com");
 var source = "encar";
 
 // --- Get available filters ---
@@ -88,7 +88,7 @@ Console.WriteLine(info);
 
 // --- Error handling ---
 
-using var badClient = new AutoApiClient("invalid-key");
+using var badClient = new AutoApiClient("invalid-key", "https://api1.auto-api.com");
 try
 {
     await badClient.GetOffersAsync("encar", new OffersParams { Page = 1 });

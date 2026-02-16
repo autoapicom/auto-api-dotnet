@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AutoApi.Client/1.0.0": {
+      "AutoApi.Client/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "AutoApi.Client/1.0.0": {
+    "AutoApi.Client/1.0.1": {
       "type": "project",
       "path": "../../src/AutoApi/AutoApi.csproj",
       "msbuildProject": "../../src/AutoApi/AutoApi.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AutoApi.Client >= 1.0.0"
+      "AutoApi.Client >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/private/tmp/auto-api-dotnet/examples/Example/Example.csproj",
+      "projectUniqueName": "/Users/me/projects/auto-api-clients/auto-api-dotnet/examples/Example/Example.csproj",
       "projectName": "Example",
-      "projectPath": "/private/tmp/auto-api-dotnet/examples/Example/Example.csproj",
+      "projectPath": "/Users/me/projects/auto-api-clients/auto-api-dotnet/examples/Example/Example.csproj",
       "packagesPath": "/Users/me/.nuget/packages/",
-      "outputPath": "/private/tmp/auto-api-dotnet/examples/Example/obj/",
+      "outputPath": "/Users/me/projects/auto-api-clients/auto-api-dotnet/examples/Example/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/me/.nuget/NuGet/NuGet.Config"
@@ -52,8 +52,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj": {
-              "projectPath": "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj"
+            "/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/AutoApi.csproj": {
+              "projectPath": "/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/AutoApi.csproj"
             }
           }
         }

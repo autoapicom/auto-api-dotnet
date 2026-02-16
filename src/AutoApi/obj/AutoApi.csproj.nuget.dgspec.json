@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj": {}
+    "/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/AutoApi.csproj": {}
   },
   "projects": {
-    "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj": {
-      "version": "1.0.0",
+    "/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/AutoApi.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj",
+        "projectUniqueName": "/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/AutoApi.csproj",
         "projectName": "AutoApi.Client",
-        "projectPath": "/private/tmp/auto-api-dotnet/src/AutoApi/AutoApi.csproj",
+        "projectPath": "/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/AutoApi.csproj",
         "packagesPath": "/Users/me/.nuget/packages/",
-        "outputPath": "/private/tmp/auto-api-dotnet/src/AutoApi/obj/",
+        "outputPath": "/Users/me/projects/auto-api-clients/auto-api-dotnet/src/AutoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/me/.nuget/NuGet/NuGet.Config"

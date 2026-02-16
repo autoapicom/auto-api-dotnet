@@ -19,7 +19,7 @@ dotnet add package AutoApi.Client
 ```csharp
 using AutoApi;
 
-using var client = new AutoApiClient("your-api-key");
+using var client = new AutoApiClient("your-api-key", "https://api1.auto-api.com");
 ```
 
 ### Get filters

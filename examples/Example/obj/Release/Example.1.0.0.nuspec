@@ -5,15 +5,15 @@
     <version>1.0.0</version>
     <authors>Example</authors>
     <description>Package Description</description>
-    <repository type="git" commit="62753377a98e18ea72f20fb97c2bb69b3db4c023" />
+    <repository type="git" commit="ca1d302685187d0de3b71ee1a13609336711b9b4" />
     <dependencies>
       <group targetFramework="net6.0">
-        <dependency id="AutoApi.Client" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AutoApi.Client" version="1.0.1" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="/private/tmp/auto-api-dotnet/examples/Example/bin/Release/net6.0/Example.runtimeconfig.json" target="lib/net6.0/Example.runtimeconfig.json" />
-    <file src="/private/tmp/auto-api-dotnet/examples/Example/bin/Release/net6.0/Example.dll" target="lib/net6.0/Example.dll" />
+    <file src="/Users/me/projects/auto-api-clients/auto-api-dotnet/examples/Example/bin/Release/net6.0/Example.runtimeconfig.json" target="lib/net6.0/Example.runtimeconfig.json" />
+    <file src="/Users/me/projects/auto-api-clients/auto-api-dotnet/examples/Example/bin/Release/net6.0/Example.dll" target="lib/net6.0/Example.dll" />
   </files>
 </package>

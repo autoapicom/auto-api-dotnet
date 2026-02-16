@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute((".NET client for auto-api.com — search and track car listings from encar, mobile.d" +
     "e, autoscout24 and more"))]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62753377a98e18ea72f20fb97c2bb69b3db4c023")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+ca1d302685187d0de3b71ee1a13609336711b9b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoApi")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/autoapicom/auto-api-dotnet")]
 
 // Создано классом WriteCodeFragment MSBuild.
