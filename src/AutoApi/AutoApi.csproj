@@ -7,7 +7,7 @@
     <LangVersion>latest</LangVersion>
 
     <PackageId>AutoApi.Client</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.5</Version>
     <Authors>AUTO-API.COM</Authors>
     <Description>.NET client for auto-api.com — search and track car listings from encar, mobile.de, autoscout24 and more</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
